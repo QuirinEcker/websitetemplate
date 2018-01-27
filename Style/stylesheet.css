@@ -1,4 +1,87 @@
-header {
-	background-image: url(/images/pattern.jpg);
+*{
+	font-family: arial;
+	font-weight: 100;
 }
+
+body {
+	margin: 0;
+}
+
+header {
+	background-image: url(../images/pattern.jpg);
+	background-attachment: fixed;
+	height: 250px;;
+}
+
+.header {
+	position: relative;
+	top: 50px;
+	margin: auto;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 350px;
+	padding: 10px 20px;
+	border: 10px solid white;
+}
+
+.InformationBox {
+	margin-top: 50px;
+}
+
+.leftBox {
+	float: left;
+	width: 33%;
+}
+
+.leftBox li{
+	list-style: none;
+}
+
+.leftBox a:link{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	line-height: 60px;
+	font-size: 30px;
+}
+
+.midBox {
+	float: left;
+	width: 33%;
+}
+
+.midBox p{
+	font-size: 20px;
+}
+
+.rightBox{
+	float: left;
+	width: 25%;
+	text-align: right;
+	margin-left: 7%;
+}
+
+.rightBox img{
+	width: 100%;
+}
+
+.rightBox h2{
+	text-align: left;
+}
+
+footer {
+	clear: both;
+	background-color: black;
+	height: 100px
+}
+
+footer p {
+	position: relative;
+	top: 40%;
+	color: white;
+	text-align: center;
+}
+
+
 
